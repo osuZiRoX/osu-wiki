@@ -93,16 +93,16 @@ Difficulty-specific rules and guidelines only apply to the difficulty level they
 
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) of any kind are disallowed.**
 - **[Dashes](/wiki/Gameplay/Dash) must have at least a 125 ms gap between their two objects.**
-- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) must not be used more than two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit) and [drops](/wiki/Gameplay/Hit_object/Juice_stream#drop).**
-- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) must always be followed by a [walk](/wiki/Gameplay/Walk).**
+- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^salad-basic-dash] must not be used more than two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit) and [drops](/wiki/Gameplay/Hit_object/Juice_stream#drop).**
+- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^salad-higher-dash] must always be followed by a [walk](/wiki/Gameplay/Walk).**
 - **[Edge dashes](/wiki/Gameplay/Edge_dash) must not be used.**
 - **At least 250 ms must be left between [fruits](/wiki/Gameplay/Hit_object/Fruit) and the start and end of [spinners](/wiki/Gameplay/Hit_object/Banana).**
 
 #### Guidelines
 
 - **All distances should be clear on whether they require the player to [walk](/wiki/Gameplay/Walk) or [dash](/wiki/Gameplay/Dash).** This is to ensure that players can easily recognise patterns that require dashing.
-- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) should not be used consecutively when different beat snaps are used.**
-- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) patterns.**
+- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^salad-basic-dash] should not be used consecutively when different beat snaps are used.**
+- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^salad-higher-dash] should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) patterns.**
 - **[Spinner traps](/wiki/Gameplay/Spinner_trap) should not be used.**
 - **[Combos](/wiki/Beatmapping/Combo) should not exceed 10 [fruits](/wiki/Gameplay/Hit_object/Fruit).**
 - **Note density should follow a mostly 1/1 and 1/2 pattern.** 1/3 and/or 1/4 patterns should be used sparingly.
@@ -120,11 +120,11 @@ Difficulty-specific rules and guidelines only apply to the difficulty level they
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) must have at least a 125 ms gap between their two objects.**
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) cannot be used on individual [drops](/wiki/Gameplay/Hit_object/Juice_stream#drop) and/or slider repetitions.** The accuracy and control required are unreasonable at this level and can create a situation where the player potentially fails to read the slider path.
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) of a different beat snap must not be used between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).** For example, a 1/2 hyperdash must not be followed by a 1/4 hyperdash.
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) must not be used more than two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) must not be used in conjunction with any other [dashes](/wiki/Gameplay/Dash) or hyperdashes.**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^platter-basic-hyperdash] must not be used more than two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^platter-higher-hyperdash] must not be used in conjunction with any other [dashes](/wiki/Gameplay/Dash) or hyperdashes.**
 - **[Dashes](/wiki/Gameplay/Dash) must have at least a 62 ms gap between their two objects.**
-- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) must not be used more than four times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
-- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) can be used up to two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit), provided there isn't a direction change between them.**
+- **[Dashes](/wiki/Gameplay/Dash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^platter-basic-dash] must not be used more than four times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
+- **[Dashes](/wiki/Gameplay/Dash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^platter-higher-dash] can be used up to two times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit), provided there isn't a direction change between them.**
 - **[Edge dashes](/wiki/Gameplay/Edge_dash) must not be used.**
 - **At least 125 ms must be left between [fruits](/wiki/Gameplay/Hit_object/Fruit) and the start of [spinners](/wiki/Gameplay/Hit_object/Banana).**
 - **At least 250 ms must be left between [fruits](/wiki/Gameplay/Hit_object/Fruit) and the end of [spinners](/wiki/Gameplay/Hit_object/Banana).**
@@ -132,7 +132,7 @@ Difficulty-specific rules and guidelines only apply to the difficulty level they
 #### Guidelines
 
 - **Strong [hyperdashes](/wiki/Gameplay/Hyperdash) should not be used.**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) patterns.**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^platter-higher-hyperdash] should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) patterns.**
 - **[Spinner traps](/wiki/Gameplay/Spinner_trap) should not be used.**
 - **[Combos](/wiki/Beatmapping/Combo) should not exceed 12 [fruits](/wiki/Gameplay/Hit_object/Fruit).**
 - **Note density should follow a mostly 1/2 and/or 1/3 pattern.** 1/4 and/or 1/6 patterns should be used sparingly.
@@ -148,18 +148,18 @@ Difficulty-specific rules and guidelines only apply to the difficulty level they
 #### Rules
 
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) and [dashes](/wiki/Gameplay/Dash) must have at least a 62 ms gap between their two objects.**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) must not be used more than four times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) must not be used more than two times within a slider.** The slider path must be simple and easy to follow.
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) must not be used in conjunction with any other hyperdashes.**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) must not be used within a slider.**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^rain-basic-hyperdash] must not be used more than four times between consecutive [fruits](/wiki/Gameplay/Hit_object/Fruit).**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^rain-basic-hyperdash] must not be used more than two times within a slider.** The slider path must be simple and easy to follow.
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^rain-higher-hyperdash] must not be used in conjunction with any other hyperdashes.**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^rain-higher-hyperdash] must not be used within a slider.**
 - **At least 125 ms must be left between [fruits](/wiki/Gameplay/Hit_object/Fruit) and the start and end of [spinners](/wiki/Gameplay/Hit_object/Banana).**
 
 #### Guidelines
 
 - **[Hyperdashes](/wiki/Gameplay/Hyperdash) should not be used on individual [drops](/wiki/Gameplay/Hit_object/Juice_stream#drop) and/or slider repetitions.**
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped) should not be used consecutively when different beat snaps are used.** For example, a 1/1 hyperdash must not be followed by a 1/2 hyperdash.
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) should not be used in conjunction with higher-snapped [dashes](/wiki/Gameplay/Dash).** If used, those cannot involve [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow), and the dash must be used before the hyperdash.
-- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped) should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) [dashes](/wiki/Gameplay/Dash).**
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [basic-snapped](/wiki/Gameplay/Dash_snapping#basic-snapped)[^rain-basic-hyperdash] should not be used consecutively when different beat snaps are used.** For example, a 1/1 hyperdash must not be followed by a 1/2 hyperdash.
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^rain-higher-hyperdash] should not be used in conjunction with higher-snapped [dashes](/wiki/Gameplay/Dash)[^rain-higher-dash].** If used, those cannot involve [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow), and the dash must be used before the hyperdash.
+- **[Hyperdashes](/wiki/Gameplay/Hyperdash) that are [higher-snapped](/wiki/Gameplay/Dash_snapping#higher-snapped)[^rain-higher-hyperdash] should not be followed by [antiflow](/wiki/Beatmapping/Mapping_techniques/Antiflow) [dashes](/wiki/Gameplay/Dash).**
 - **[Edge dashes](/wiki/Gameplay/Edge_dash) should not be used in conjunction with other [dashes](/wiki/Gameplay/Dash) or [hyperdashes](/wiki/Gameplay/Hyperdash).**
 - **[Spinner traps](/wiki/Gameplay/Spinner_trap) should not be used.**
 - **Note density should follow a mostly 1/2 + 1/4 and/or 1/3 + 1/6 pattern.** 1/8 patterns and higher should be used sparingly.
@@ -190,3 +190,12 @@ Difficulty-specific rules and guidelines only apply to the difficulty level they
 ## Notes
 
 [^proper-spread]: A "proper" spread *for difficulties Rain and harder* is defined as a spread with gaps in difficulty similar to those between lower [difficulty levels](/wiki/Beatmap/Difficulty#difficulty-levels) as specified in the [difficulty-specific criteria](#difficulty-specific).
+[^salad-basic-dash]: In a Salad, a basic-snapped dash has a gap of 250 ms or higher.
+[^salad-higher-dash]: In a Salad, a higher-snapped dash has a gap between 125 and 249 ms.
+[^platter-basic-dash]: In a Platter, a basic-snapped dash has a gap of 125 ms or higher.
+[^platter-higher-dash]: In a Platter, a higher-snapped dash has a gap between 62 and 124 ms.
+[^platter-basic-hyperdash]: In a Platter, a basic-snapped hyperdash has a gap of 250 ms or higher.
+[^platter-higher-hyperdash]: In a Platter, a higher-snapped hyperdash has a gap between 125 and 249 ms.
+[^rain-higher-dash]: In a Rain, a higher-snapped dash has a gap between 62 and 124 ms.
+[^rain-basic-hyperdash]: In a Rain, a basic-snapped hyperdashdash has a gap of 125 ms or higher.
+[^rain-higher-hyperdash]: In a Rain, a higher-snapped hyperdashdash has a gap between 62 and 124 ms.
